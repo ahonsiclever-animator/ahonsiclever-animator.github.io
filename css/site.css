@@ -363,8 +363,9 @@ body.lb-open { overflow: hidden; }
 .lb-btn svg { width: 18px; height: 18px; }
 @media (hover: hover) and (pointer: fine) { .lb-btn:hover { background: rgba(255,255,255,.14); } }
 .lb-close { margin-left: auto; }
-.lb-stage { position: relative; display: grid; place-items: center; min-height: 0; padding: 0 var(--gutter); touch-action: pan-y; }
-.lb-media { max-width: min(100%, 1280px); max-height: 100%; width: auto; height: auto; border-radius: 12px; background: #000; transform: scale(.97); transition: transform .4s var(--ease-out); }
+.lb-stage { position: relative; display: flex; align-items: center; justify-content: center; min-height: 0; overflow: hidden; padding: 0 var(--gutter); touch-action: pan-y; }
+/* JS sets the exact width/height so the whole frame fits; max-* are the fallback */
+.lb-media { display: block; flex: none; max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 12px; background: #000; transform: scale(.97); transition: transform .4s var(--ease-out); }
 .lb.open .lb-media { transform: none; }
 .lb-info { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; padding: 16px var(--gutter) 20px; max-width: calc(var(--max) + 2 * var(--gutter)); width: 100%; margin-inline: auto; }
 .lb-info h2 { font: 600 clamp(1.1rem, 2vw, 1.4rem)/1.25 var(--display); color: var(--on-dark); letter-spacing: -.01em; }

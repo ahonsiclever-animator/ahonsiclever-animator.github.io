@@ -202,6 +202,24 @@
         else if (e.key === "ArrowLeft") step(-1);
       });
       swipe($(".lb-stage", el));
+      media.addEventListener("loadedmetadata", fit);
+      addEventListener("resize", () => { if (el.classList.contains("open")) fit(); });
+    }
+
+    // Size the video to the largest box that fits the stage at its own aspect ratio,
+    // so vertical and wide clips are always shown whole (and 720p clips scale up).
+    function fit() {
+      const stage = $(".lb-stage", el);
+      const cs = getComputedStyle(stage);
+      const availW = stage.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+      const availH = stage.clientHeight - 8;
+      const cur = seq[i] && META[seq[i][1]];
+      const vw = media.videoWidth || (cur && cur.vertical ? 9 : 16);
+      const vh = media.videoHeight || (cur && cur.vertical ? 16 : 9);
+      if (availW <= 0 || availH <= 0) return;
+      const k = Math.min(availW / vw, availH / vh);
+      media.style.width = `${Math.floor(vw * k)}px`;
+      media.style.height = `${Math.floor(vh * k)}px`;
     }
 
     // Flat list of [workId, clipId] in page order, so arrows walk clip by clip.
@@ -219,6 +237,7 @@
       const k = clips.indexOf(cid);
       media.src = `media/${cid}.mp4`;
       media.poster = `media/${cid}.jpg`;
+      fit();
       media.play().catch(() => {});
       title.textContent = w.title;
       blurb.textContent = w.blurb || "";
