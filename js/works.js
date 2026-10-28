@@ -17,7 +17,7 @@ window.WORKS = [
   { id: "comp-rain", cat: "compositing", title: "Rainy window, compositing", clips: ["comp-rain"],
     blurb: "A girl at her desk seen through a rain-streaked window, with warm lamp light, glow and falling rain layered in." },
 
-  { id: "griot", cat: "character", title: "Griot", clips: ["griot"],
+  { id: "griot", cat: "character", title: "Griot", client: "Penmob Creative Studios", clips: ["griot"],
     blurb: "A night chase from a Lagos bridge down into the sewers: dramatic close-ups, a monster and a machete fight. The finished film from the Griot storyboard." },
   { id: "nereus", cat: "character", title: "Tales of Nereus", clips: ["nereus"],
     blurb: "An anime trailer I animated end to end, set to the poem \"Unbeaten by rain\": a dragon at sunset, a sky battle and a light-sword strike, ending on the Tonvatar and Tales of Nereus titles." },
@@ -36,7 +36,7 @@ window.WORKS = [
 
   { id: "snack-anim", cat: "boards", title: "From animatic to final", clips: ["snack-anim"],
     blurb: "Animatic and backgrounds on top, the final animation underneath, shot for shot." },
-  { id: "sb-desert", cat: "boards", title: "Griot, storyboard", clips: ["sb-desert", "sb-desert-2"],
+  { id: "sb-desert", cat: "boards", title: "Griot, storyboard", client: "Penmob Creative Studios", clips: ["sb-desert", "sb-desert-2"],
     blurb: "A storyboard animatic for a desert chase, with camera moves, staging and timing worked out in grey tones." },
   { id: "sb-stillborn", cat: "boards", title: "Still Born, animatic", clips: ["sb-stillborn", "sb-stillborn-2"],
     blurb: "A quiet family story boarded and timed as an animatic before any final art." },
