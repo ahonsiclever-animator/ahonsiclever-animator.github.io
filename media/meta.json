@@ -271,5 +271,26 @@
   "dur": 73.9,
   "vertical": false,
   "audio": true
+ },
+ "nereus": {
+  "w": 1280,
+  "h": 720,
+  "dur": 59.4,
+  "vertical": false,
+  "audio": true
+ },
+ "comp-rain": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 4.1,
+  "vertical": false,
+  "audio": true
+ },
+ "griot": {
+  "w": 1280,
+  "h": 720,
+  "dur": 65.8,
+  "vertical": false,
+  "audio": true
  }
 }
