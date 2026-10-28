@@ -1,0 +1,275 @@
+{
+ "comp-queen": {
+  "w": 1280,
+  "h": 720,
+  "dur": 23.1,
+  "vertical": false,
+  "audio": true
+ },
+ "comp-torch": {
+  "w": 1280,
+  "h": 720,
+  "dur": 15.2,
+  "vertical": false,
+  "audio": true
+ },
+ "nibbles": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 17.6,
+  "vertical": false,
+  "audio": true
+ },
+ "companion": {
+  "w": 1280,
+  "h": 720,
+  "dur": 29.2,
+  "vertical": false,
+  "audio": true
+ },
+ "companion-flight": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 10.2,
+  "vertical": false,
+  "audio": true
+ },
+ "lamb": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 26.8,
+  "vertical": false,
+  "audio": true
+ },
+ "admin-show": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 19.0,
+  "vertical": false,
+  "audio": true
+ },
+ "admin-rough": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 15.0,
+  "vertical": false,
+  "audio": false
+ },
+ "cleanup": {
+  "w": 2004,
+  "h": 1128,
+  "dur": 47.8,
+  "vertical": false,
+  "audio": true
+ },
+ "cleanup-2": {
+  "w": 2004,
+  "h": 1128,
+  "dur": 7.6,
+  "vertical": false,
+  "audio": false
+ },
+ "inbetween": {
+  "w": 2004,
+  "h": 1128,
+  "dur": 10.3,
+  "vertical": false,
+  "audio": true
+ },
+ "bib-dialogue": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 20.2,
+  "vertical": false,
+  "audio": true
+ },
+ "bib-ep2": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 77.2,
+  "vertical": true,
+  "audio": true
+ },
+ "bib-teaser": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 39.7,
+  "vertical": true,
+  "audio": true
+ },
+ "bib-radio": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 12.6,
+  "vertical": true,
+  "audio": true
+ },
+ "bib-flow": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 19.6,
+  "vertical": true,
+  "audio": true
+ },
+ "bib-hf": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 9.8,
+  "vertical": true,
+  "audio": true
+ },
+ "ad-desk": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 5.0,
+  "vertical": false,
+  "audio": true
+ },
+ "ad-call": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 5.0,
+  "vertical": false,
+  "audio": true
+ },
+ "ad-board": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 5.0,
+  "vertical": false,
+  "audio": true
+ },
+ "ad-sketch": {
+  "w": 1980,
+  "h": 1080,
+  "dur": 5.0,
+  "vertical": false,
+  "audio": false
+ },
+ "snack-anim": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 15.6,
+  "vertical": true,
+  "audio": true
+ },
+ "comedy-town": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 57.0,
+  "vertical": false,
+  "audio": false
+ },
+ "comedy-pizza": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 12.2,
+  "vertical": false,
+  "audio": false
+ },
+ "comedy-dead": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 7.3,
+  "vertical": true,
+  "audio": true
+ },
+ "comedy-sing": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 11.6,
+  "vertical": true,
+  "audio": true
+ },
+ "comedy-santa": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 14.0,
+  "vertical": true,
+  "audio": true
+ },
+ "comedy-phone": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 12.9,
+  "vertical": true,
+  "audio": true
+ },
+ "comedy-sketch": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 27.0,
+  "vertical": false,
+  "audio": false
+ },
+ "comedy-board": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 13.2,
+  "vertical": true,
+  "audio": false
+ },
+ "sb-desert": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 31.0,
+  "vertical": false,
+  "audio": false
+ },
+ "sb-desert-2": {
+  "w": 3840,
+  "h": 2160,
+  "dur": 9.4,
+  "vertical": false,
+  "audio": false
+ },
+ "sb-stillborn": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 44.5,
+  "vertical": false,
+  "audio": true
+ },
+ "sb-stillborn-2": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 23.2,
+  "vertical": false,
+  "audio": true
+ },
+ "trailer-ep2": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 38.8,
+  "vertical": false,
+  "audio": true
+ },
+ "trailer-meska": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 38.8,
+  "vertical": false,
+  "audio": true
+ },
+ "trailer-3": {
+  "w": 1080,
+  "h": 1920,
+  "dur": 40.7,
+  "vertical": true,
+  "audio": true
+ },
+ "welcome": {
+  "w": 4096,
+  "h": 2160,
+  "dur": 57.9,
+  "vertical": false,
+  "audio": true
+ },
+ "beteye": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 73.9,
+  "vertical": false,
+  "audio": true
+ }
+}
