@@ -19,6 +19,8 @@ window.WORKS = [
 
   { id: "griot", cat: "character", title: "Griot", clips: ["griot"],
     blurb: "A night chase from a Lagos bridge down into the sewers: dramatic close-ups, a monster and a machete fight. The finished film from the Griot storyboard." },
+  { id: "nereus", cat: "character", title: "Tales of Nereus", clips: ["nereus"],
+    blurb: "An anime trailer I animated end to end, set to the poem \"Unbeaten by rain\": a dragon at sunset, a sky battle and a light-sword strike, ending on the Tonvatar and Tales of Nereus titles." },
   { id: "companion", cat: "character", title: "Companion", clips: ["companion", "companion-flight"],
     blurb: "A dragon taken from rough animation and background through to the final coloured shot." },
   { id: "admin-show", cat: "character", title: "The Admin Show, opening", clips: ["admin-show", "admin-rough"],
@@ -55,8 +57,6 @@ window.WORKS = [
   { id: "bib-shorts", cat: "series", title: "Series shorts", client: "D'Paper Man", clips: ["bib-radio", "bib-hf", "bib-flow"],
     blurb: "Short pieces with the cast, made for YouTube Shorts and TikTok alongside the episodes." },
 
-  { id: "nereus", cat: "editing", title: "Tales of Nereus, trailer", clips: ["nereus"],
-    blurb: "An anime trailer set to the poem \"Unbeaten by rain\": a dragon at sunset, a sky battle and a light-sword strike, ending on the Tonvatar and Tales of Nereus titles." },
   { id: "trailer-meska", cat: "editing", title: "Who killed Meska Opo?", client: "Nsibidi Fables", clips: ["trailer-meska"],
     blurb: "A night-time mystery trailer from the Kush series, built around one question." },
   { id: "trailer-ep2", cat: "editing", title: "Episode 2 trailer", client: "Nsibidi Fables", clips: ["trailer-ep2"],
