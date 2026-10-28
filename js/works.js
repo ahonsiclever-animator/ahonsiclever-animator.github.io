@@ -10,6 +10,9 @@ window.CATS = [
 ];
 
 window.WORKS = [
+  // Home-page showreel; its cat is not in CATS, so it stays off the Work page grid.
+  { id: "showreel", cat: "reel", title: "Showreel 2026", clips: ["showreel"],
+    blurb: "Highlights from Tales of Nereus, Griot, Companions, Burdens in Babylon, Nibbles, The Admin Show, compositing for Nsibidi Fables and comedy shorts for Franken Studio." },
   { id: "comp-queen", cat: "compositing", title: "Moonlit cave, compositing breakdown", client: "Nsibidi Fables", clips: ["comp-queen"],
     blurb: "The animation layer first, then tone, light, highlights and blur until the queen sits inside the night scene." },
   { id: "comp-torch", cat: "compositing", title: "Temple torchlight, compositing breakdown", client: "Nsibidi Fables", clips: ["comp-torch"],

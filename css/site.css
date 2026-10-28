@@ -153,17 +153,12 @@ h1, h2, h3, h4, .h1, .h2, .h3 {
   .hero-aside dl { grid-template-columns: 1fr 1fr; }
 }
 
-/* Hero reel: a contact-sheet strip of real work, bottom aligned */
-.reel { display: grid; grid-template-columns: minmax(0, 2.3fr) minmax(0, 5fr) minmax(0, 2.3fr); gap: clamp(10px, 1.6vw, 20px); align-items: end; margin-top: clamp(40px, 6vw, 72px); }
-.frame { margin: 0; }
-.frame .tile { border-radius: var(--r-md); box-shadow: var(--shadow-tile); }
-.frame figcaption { display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; font-size: .84rem; color: var(--muted); }
-.frame figcaption b { font: 500 .88rem/1.3 var(--display); color: var(--ink); }
-.frame figcaption span:last-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
-@media (max-width: 700px) {
-  .reel { grid-template-columns: 1fr 1fr; }
-  .reel .frame.main { grid-column: 1 / -1; order: -1; }
-}
+/* Hero showreel: one wide frame of the best work, muted until opened */
+.showreel { margin: clamp(40px, 6vw, 72px) 0 0; }
+.showreel .tile { border-radius: var(--r-lg); box-shadow: var(--shadow-tile); }
+.showreel figcaption { display: flex; justify-content: space-between; gap: 12px; margin-top: 14px; font-size: .88rem; color: var(--muted); }
+.showreel figcaption b { font: 500 .94rem/1.3 var(--display); color: var(--ink); }
+.showreel figcaption span:last-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
 
 /* ---------- Studios line ---------- */
 .studios { margin-top: clamp(56px, 8vw, 96px); border-block: 1px solid var(--line); }

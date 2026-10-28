@@ -292,5 +292,12 @@
   "dur": 65.8,
   "vertical": false,
   "audio": true
+ },
+ "showreel": {
+  "w": 1920,
+  "h": 1080,
+  "dur": 77.6,
+  "vertical": false,
+  "audio": false
  }
 }
