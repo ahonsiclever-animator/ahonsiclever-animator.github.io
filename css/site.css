@@ -1,5 +1,5 @@
 /* Ahonsi Clever — portfolio
-   Type: Bricolage Grotesque (display) + Be Vietnam Pro (body).
+   Type: Be Vietnam Pro throughout (headings 600-700, text 400-500).
    Motion rule: nothing pulses, glows or loops on its own except the work itself. */
 
 :root {
@@ -17,7 +17,7 @@
   --on-dark-muted: #a7a2a4;
   --dark-line: rgba(255, 255, 255, .12);
 
-  --display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --display: "Be Vietnam Pro", "Helvetica Neue", Arial, sans-serif;
   --body: "Be Vietnam Pro", "Helvetica Neue", Arial, sans-serif;
 
   --max: 1200px;
@@ -58,8 +58,8 @@ h1, h2, h3, h4, .h1, .h2, .h3 {
   font-weight: 600;
   margin: 0;
 }
-.h1 { font-size: clamp(2.5rem, 6vw, 4.6rem); line-height: 1.02; letter-spacing: -.035em; }
-.h2 { font-size: clamp(1.85rem, 3.8vw, 2.75rem); line-height: 1.1; letter-spacing: -.025em; }
+.h1 { font-size: clamp(2.3rem, 5.4vw, 4.2rem); line-height: 1.06; letter-spacing: -.03em; font-weight: 700; }
+.h2 { font-size: clamp(1.75rem, 3.5vw, 2.55rem); line-height: 1.14; letter-spacing: -.022em; }
 .h3 { font-size: clamp(1.35rem, 2.3vw, 1.7rem); line-height: 1.2; letter-spacing: -.015em; }
 .eyebrow {
   font: 500 .82rem/1.2 var(--display);
