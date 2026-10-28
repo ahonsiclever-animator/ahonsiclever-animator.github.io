@@ -296,8 +296,8 @@
  "showreel": {
   "w": 1920,
   "h": 1080,
-  "dur": 77.6,
+  "dur": 59.6,
   "vertical": false,
-  "audio": false
+  "audio": true
  }
 }
